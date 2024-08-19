@@ -1,16 +1,18 @@
-# plantgrowthmonitoringsystem
+# Leaf Watch
 
-A new Flutter project.
+**Leaf Watch** is an automated plant growth monitoring system, developed as a final year project. The system is designed to track the growth of lettuce plants using computer vision and machine learning techniques, providing valuable insights through a web application for better monitoring and decision-making.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Automated Growth Tracking**: Utilizes YOLO for object detection to track the growth of lettuce plants.
+- **Data-Driven Insights**: Integrates TensorFlow for machine learning and deep learning models to analyze plant growth patterns.
+- **Web Application**: Frontend built with Flutter for seamless user interaction.
+- **Backend Support**: Flask and Python power the backend services for managing data and model integration.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Frontend**: Flutter
+- **Backend**: Flask, Python
+- **Machine Learning & Computer Vision**: YOLO, TensorFlow
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
